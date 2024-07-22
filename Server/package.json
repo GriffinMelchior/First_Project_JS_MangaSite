@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "first server",
+  "main": "directory.js",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon directory.js"
+  },
+  "dependencies": {
+  "express": "^4.19.2"
+  },
+  "author": "Griffin",
+  "license": "private:unless you are me, don't use this mess of a code"
+}
