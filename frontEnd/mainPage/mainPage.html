@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mainPage.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="image/LOGO.png" alt="Image Didn't load" class="logo">
+    </div>
+    <div class="searchContainer">
+      <input type="text" class="searchBox" manga-Search>
+      <button class="searchButton">
+        <img src="image/Search.png" alt="" class="searchIcon">
+      </button>
+    </div>
+  </header>
+  <main>
+      <div id="manga" manga-Container></div>
+  </main>
+  <template manga-Template>
+    <div class="content">
+      <a href="" manga-Link>
+        <img class="upper" src="" manga-image>
+        <p class="lower" manga-Title></p>
+      </a>
+    </div>
+  </template>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

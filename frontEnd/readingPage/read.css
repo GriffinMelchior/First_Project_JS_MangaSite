@@ -1,0 +1,52 @@
+header{
+  background-color: rgb(97, 16, 10);
+  
+}
+a{
+  text-decoration: none;
+  color: yellow;
+}
+body{
+  margin: 0;
+  background: #282a36;
+}
+img{
+  height: 100%;
+}
+.logo{
+  height: 60px;
+}
+.home{
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+.navigation {
+  height:47px;
+  width: 47px;
+  border: none;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.button-svg {
+  height:45px;
+  width: 45px;
+  opacity: 60%;
+}
+
+.button{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.images{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
