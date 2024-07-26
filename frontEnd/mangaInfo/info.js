@@ -55,12 +55,12 @@ fetch('/info.json')
       let index = url.indexOf("mangaInfo/") + "mangaInfo/".length;
       let resultEncoded = url.substring(index);
       let manga = decodeURIComponent(resultEncoded);
-      
+      let chapter = manga.toLowerCase()
       if (data && data.manga && typeof data.manga === 'number' && data.manga > 0) {
         let update = '';
         for (let i = 2; i <= data.manga; i++) {
           update += `
-          <a href="../reading/${manga}/chapter${i-1}">
+          <a href="../reading/${manga}/${chapter}-chapter-${i-1}">
           <li>Chapter ${i - 1}</li>
           </a>`;
         }
